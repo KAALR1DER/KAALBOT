@@ -38,7 +38,7 @@ async def fban(event):
 
     user_link = f"[{fban_id}](tg://user?id={fban_id})"
 
-    await event.edit(f"**Fbanning** {user_link}...")
+    await event.edit(f"**Fbanning by kaalbot** {user_link}...")
     failed = []
     total = int(0)
 
@@ -70,7 +70,7 @@ async def fban(event):
         for i in failed:
             status += "• " + i + "\n"
     else:
-        status = f"Success! Fbanned in {total} feds."
+        status = f"Success! Fbanned in {total} feds by kaalbot."
 
     await event.edit(
         f"**Fbanned **{user_link}!\n**Reason:** {reason}\n**Status:** {status}"
@@ -142,7 +142,7 @@ async def unfban(event):
 
     reason = reason if reason else "Not specified."
     await event.edit(
-        f"**Un-fbanned** {user_link}!\n**Reason:** {reason}\n**Status:** {status}"
+        f"**Un-fbanned by kaalbot** {user_link}!\n**Reason:** {reason}\n**Status:** {status}"
     )
 
 
