@@ -97,7 +97,7 @@ async def glitch(event):
             raise ValueError
     except ValueError:
         value = 2
-    await event.edit("```Glitching This Media..```")
+    await event.edit("```Glitching This Media by kaalbot..```")
     await asyncio.sleep(2)
     glitcher = ImageGlitcher()
     img = Image.open(glitch_file)
