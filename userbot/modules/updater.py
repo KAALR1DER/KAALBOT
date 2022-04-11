@@ -38,7 +38,7 @@ async def gen_chlog(repo, diff):
 
 async def print_changelogs(event, ac_br, changelog):
     changelog_str = (
-        f"**New UPDATE available for [{ac_br}]:\n\nCHANGELOG:**\n`{changelog}`"
+        f"**New UPDATE of Kaalbot available for [{ac_br}]:\n\nCHANGELOG:**\n`{changelog}`"
     )
     if len(changelog_str) > 4096:
         await event.edit("`Changelog is too big, view the file to see it.`")
@@ -164,7 +164,7 @@ async def upstream(event):
             return await event.edit(
                 f"`Unfortunately, the directory {error} "
                 "does not seem to be a git repository.\n"
-                "But we can fix that by force updating the userbot using "
+                "But we can fix that by force updating the 𝐊𝐀𝐀𝐋𝐁𝐎𝐓 using "
                 ".update now.`"
             )
         repo = Repo.init()
@@ -196,13 +196,13 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     """ - Special case for deploy - """
     if conf == "deploy":
-        await event.edit("`Deploying userbot, please wait....`")
+        await event.edit("`Deploying 𝐊𝐀𝐀𝐋𝐁𝐎𝐓, please wait....`")
         await deploy(event, repo, ups_rem, ac_br, txt)
         return
 
     if changelog == "" and force_update is False:
         await event.edit(
-            "\n`Your USERBOT is`  **up-to-date**  `with`  "
+            "\n`Your 𝐊𝐀𝐀𝐋𝐁𝐎𝐓 is`  **up-to-date**  `with`  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
@@ -217,7 +217,7 @@ async def upstream(event):
             "`Force-Syncing to latest stable userbot code, please wait...`"
         )
     if conf == "now":
-        await event.edit("`Updating userbot, please wait....`")
+        await event.edit("`Updating 𝐊𝐀𝐀𝐋𝐁𝐎𝐓, please wait....`")
         await update(event, repo, ups_rem, ac_br)
     return
 
