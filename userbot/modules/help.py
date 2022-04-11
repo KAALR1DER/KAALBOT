@@ -19,7 +19,7 @@ async def help_handler(event):
         else:
             await event.edit(f"`{args}` is not a valid module name.")
     else:
-        head = "Please specify which module do you want help for !!"
+        head = "Please specify which KAALBOT module do you want help for !!"
         head2 = f"Loaded Modules : {len(CMD_HELP)}"
         head3 = "Usage: `.help` `<module name>`"
         head4 = "List for all available command below: "
