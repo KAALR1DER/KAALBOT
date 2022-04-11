@@ -90,7 +90,7 @@ async def amireallyalive(alive):
     )
     if ALIVE_LOGO:
         try:
-            await alive.respond(output, file=ALIVE_LOGO)
+            await alive.respond(output, file="https://telegra.ph/file/13bccc62e5a1531ed8988.jpg")
             await alive.delete()
         except MediaEmptyError:
             await alive.edit(
