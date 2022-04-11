@@ -85,7 +85,7 @@ async def download(target_file):
                 LOGS.info(str(e))
         if downloader.isSuccessful():
             await target_file.edit(
-                f"Downloaded to `{downloaded_file_name}` successfully !!"
+                f"Downloaded to `{downloaded_file_name}` successfully by kaalbot !!"
             )
         else:
             await target_file.edit(f"Incorrect URL\n{url}")
