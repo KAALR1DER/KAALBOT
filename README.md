@@ -1,7 +1,7 @@
 <p align="center">
   <p align="center"><a href="https://t.me/ITS_HEAVEN_KING"><img src="https://telegra.ph/file/20dda006e65de620ee475.jpg"></a></p>
 <h1 align="center">
-  <b>𝗞𝗔𝗔𝗟 sᴘᴀᴍ</b>
+  <b>𝗞𝗔𝗔𝗟 BOT</b>
 </h1>
 
 # Deploy on heroku
