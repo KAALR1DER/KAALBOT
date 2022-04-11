@@ -71,7 +71,7 @@ async def bot_ver(event):
             revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
             await event.edit(
-                "`Userbot Version: " f"{verout}" "` \n" "`Revision: " f"{revout}" "`"
+                "`Kaalbot Version: " f"{verout}" "` \n" "`Revision: " f"{revout}" "`"
             )
         else:
             await event.edit(
@@ -107,7 +107,7 @@ async def amireallyaliveuser(username):
     newuser = username.pattern_match.group(1)
     global DEFAULTUSER
     DEFAULTUSER = newuser
-    await username.edit(f"Successfully changed user to `{newuser}`")
+    await username.edit(f"Successfully changed user to `{newuser}` by kaalbot")
 
 
 @register(outgoing=True, pattern=r"^\.resetalive$")
