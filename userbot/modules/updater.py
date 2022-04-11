@@ -114,7 +114,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Successfully deployed!\n" "Restarting, please wait...`")
+            await event.edit("`Successfully deployed kaalbot!\n" "Restarting, please wait...`")
     else:
         await event.edit("`Please set up HEROKU_API_KEY variable...`")
     return
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await event.edit(
-        "`Successfully Updated!\n" "Bot is restarting... Wait for a second!`"
+        "`Successfully Updated Kaalbot!\n" "KaalBot is restarting... Wait for a second!`"
     )
 
     try:
