@@ -29,8 +29,8 @@ PP_ERROR = "```Failure occured while processing image.```"
 
 BIO_SUCCESS = "```Successfully edited Bio.```"
 
-NAME_OK = "```Your name was succesfully changed.```"
-USERNAME_SUCCESS = "```Your username was succesfully changed.```"
+NAME_OK = "```Your name was succesfully changed by kaalbot.```"
+USERNAME_SUCCESS = "```Your username was succesfully changed by kaalbot.```"
 USERNAME_TAKEN = "```This username is already taken.```"
 # ===============================================================
 
