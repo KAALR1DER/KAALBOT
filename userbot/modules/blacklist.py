@@ -79,7 +79,7 @@ async def list_blacklist(event):
     if not chat_list:
         return await event.edit("**You haven't blacklisted any chats yet!**")
 
-    msg = "**Blacklisted chats:**\n\n"
+    msg = "**Blacklisted chats by kaalbot:**\n\n"
 
     for i in chat_list:
         try:
