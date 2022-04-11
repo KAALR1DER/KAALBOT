@@ -6,7 +6,7 @@
 
 # Deploy on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KAALR1DER/KAALSPAM)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKaalr1der%2FKAALBOT&template=https%3A%2F%2Fgithub.com%2Fkaalr1der%2FKAALBOT)
 
 
 # Support & Updates
