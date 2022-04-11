@@ -174,7 +174,7 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                "**Dyno Usage**:\n\n"
+                "**Dyno Usage of Kaalbot**:\n\n"
                 f"-> `Dyno usage for`  **{app.name}**:\n"
                 f"     •  **{AppHours} hour(s), "
                 f"{AppMinutes} minute(s)  -  {AppPercentage}%**"
