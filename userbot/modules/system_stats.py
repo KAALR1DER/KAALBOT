@@ -87,6 +87,7 @@ async def amireallyalive(alive):
         f"**Python :** __v{python_version()}__\n"
         f"**Telethon :** __v{version.__version__}__\n"
         f"**User :** __{DEFAULTUSER}__"
+        f"**Cʀᴇᴀᴛᴏʀ :** __{☬Kᴀᴀʟ♛}__"
     )
     if ALIVE_LOGO:
         try:
