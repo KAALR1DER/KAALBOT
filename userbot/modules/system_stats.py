@@ -86,8 +86,7 @@ async def amireallyalive(alive):
         f"**𝗞𝗔𝗔𝗟𝗕𝗢𝗧** is running on **{repo.active_branch.name}**\n\n"
         f"**Python :** __v{python_version()}__\n"
         f"**Telethon :** __v{version.__version__}__\n"
-        f"**User :** __{DEFAULTUSER}__"
-        f"**Cʀᴇᴀᴛᴏʀ :** __{☬Kᴀᴀʟ♛}__"
+        f"**User :** __{Defaultuser}__"
     )
     if ALIVE_LOGO:
         try:
